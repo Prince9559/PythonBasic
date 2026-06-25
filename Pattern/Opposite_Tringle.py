@@ -4,6 +4,20 @@ for i in range (n):
 
     for j in range(n):
 
+        condition= j>=i
+
+        if condition:
+
+            print(" *", end="")
+
+        else:
+
+            print(" ", end="")
+
+    print(" ",end=" ")  
+
+    for j in range(n):
+
         condition= j>=n-1-i
 
         if condition:
@@ -14,4 +28,4 @@ for i in range (n):
 
             print(" ", end="")
 
-    print()        
+    print()      
