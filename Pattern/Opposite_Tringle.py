@@ -1,14 +1,17 @@
 n=7
 
-for i in range(n):
+for i in range (n):
 
     for j in range(n):
 
-        condition = j==i and j<=i or j==0 or i==6 
+        condition= j>=n-1-i
 
         if condition:
+
             print(" *", end="")
+
         else:
-            print(" ",end="")
+
+            print(" ", end="")
 
     print()        
